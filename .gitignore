@@ -4,5 +4,6 @@
 # IntelliJ project files
 .idea
 *.iml
+src/main/java/com/example/demo/invertedindex/index
 out
 gen
