@@ -24,7 +24,6 @@ public class IndexManager {
 
     String keywordsNode; //存储含有特定关键字的所有节点的名称，用逗号隔开
 
-
     //创建索引库
     public void createIndex() throws Exception{
 
