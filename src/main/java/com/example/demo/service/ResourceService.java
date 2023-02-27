@@ -8,7 +8,6 @@ import com.example.demo.entity.PointV;
 import com.github.davidmoten.rtree.Entry;
 import com.github.davidmoten.rtree.RTree;
 import com.github.davidmoten.rtree.geometry.Point;
-import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.List;

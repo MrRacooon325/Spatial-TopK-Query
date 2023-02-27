@@ -15,6 +15,11 @@ public interface PointPRepository extends Neo4jRepository<PointP,String> {
 
     Optional<PointP> findById(Long id);
 
+
+    //根据id获取节点p
+    @Query("match(n:p) where id(n)=$id return n")
+    PointP getPointPById(long id);
+
     //获取p类型点的总记录数
     @Query("match(n:p) return count(n)")
     int getCountP();

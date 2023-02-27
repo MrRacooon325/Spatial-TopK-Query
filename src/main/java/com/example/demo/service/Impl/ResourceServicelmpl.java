@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.service.Impl;
 
 import com.example.demo.dto.PLabelsDto;
 import com.example.demo.dto.SubNodeDto;
@@ -7,6 +7,7 @@ import com.example.demo.entity.PointP;
 import com.example.demo.entity.PointV;
 import com.example.demo.invertedindex.IndexManager;
 import com.example.demo.keywords.KeyWordsList;
+import com.example.demo.service.ResourceService;
 import com.example.demo.stopwords.StopWordsList;
 import com.example.demo.repository.PointPRepository;
 import com.example.demo.repository.PointVRepository;
@@ -55,6 +56,7 @@ public class ResourceServicelmpl implements ResourceService {
     IndexManager indexManager = new IndexManager();
 
     com.example.demo.spatialIndex.IndexManager spatialindex = new com.example.demo.spatialIndex.IndexManager();
+
 
 
     //返回节点V的所有标签
